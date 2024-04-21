@@ -1,0 +1,139 @@
+.menu{
+  text-align: center;
+  /* margin-left: 650px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex{
+  display: flex;
+  
+}
+
+.flex p{
+  margin-left: 1%;
+}
+
+.chicken{
+  border: 3px solid black;
+  margin-right: 1%;
+  background-color: #A9A9A9;
+}
+
+.chicken div{
+  border-bottom: 3px solid black;
+  width: 29.5%;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 70%;
+  border-left: 3px solid black;
+  background-color: #fd81b7cd;
+  align-items: right;
+}
+
+.beef{
+  border: 3px solid black;
+  margin-right: 1%;
+  background-color: #A9A9A9;
+}
+
+.beef div{
+  border-bottom: 3px solid black;
+  width: 29.5%;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 70%;
+  border-left: 3px solid black;
+  background-color: #ff7860b5;
+  align-items: right;
+}
+
+
+.sushi{
+  border: 3px solid black;
+  background-color: #A9A9A9;
+}
+
+.sushi div{
+  width: 29.5%;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 70%;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  background-color: #ffee6bbf;
+  align-items: right;
+}
+
+@media (max-width: 992px){
+  .flex{
+    flex-wrap: wrap;
+  }
+  .flexm{
+    display:inline-flex;
+    justify-content: space-around;
+    margin-bottom: 50%;
+  }
+  .chicken{
+     width: 47%;
+     margin-bottom: 1%;
+  }
+  .chicken div{
+    margin-left: 70%;
+    align-items: right;
+  }
+  .beef{
+    width: 47%;
+    margin-bottom: 1%;
+  }
+  .beef div{
+    margin-left: 70%;
+    align-items: right;
+  }
+  .sushi{
+    flex-direction: column;
+    width: 95.5%;
+  }
+  .sushi div{
+    margin-left: 70%;
+    align-items: right;
+  }
+}
+
+@media (max-width: 767px){
+  .flex{
+    flex-direction: column;
+    
+  }
+
+  .chicken{
+    width: 95%;
+    margin-bottom: 1%;
+ }
+ .chicken div{
+   margin-left: 70%;
+   align-items: right;
+ }
+ .beef{
+   width: 95%;
+   margin-bottom: 1%;
+ }
+ .beef div{
+   margin-left: 70%;
+   align-items: right;
+ }
+ .sushi{
+   width: 95%;
+   margin-bottom: 1%;
+ }
+ .sushi div{
+   margin-left: 70%;
+   align-items: right;
+ }
+}
